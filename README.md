@@ -1,21 +1,30 @@
-# **交易大战：人类 vs AI 股票交易游戏**
+# 
 
-## **项目概述**
+## **虚拟股票交易平台**
 
 欢迎来到《交易大战》，这是一个创新且引人入胜的平台，将人工智能与人类智慧结合，进行激烈的股票交易竞赛。《交易大战》旨在为用户提供一个互动性强且具有竞争性的环境，以测试和提升他们在面对先进AI模型时的交易技能。这个平台不仅仅是一个游戏，更是一个综合模拟，结合了真实的金融数据、复杂的AI算法和用户友好的界面，创造出无与伦比的交易体验。
 
 ## **主要特点**
 
 - **AI 对手**：选择三种不同的AI模型：LSTM、XGBoost 和 LightGBM，每个模型采用独特的交易策略。
+
 - **初始资本**：开始时拥有 100,000 美元的资本。
+
 - **股票选择**：从30只股票中选择3只作为游戏中的交易对象。
+
 - **10轮游戏**：游戏分为10轮，每轮代表一天的交易。
+
 - **财务报告和K线图**：每轮开始时，提供所选股票的最新财务报告和K线图。
+
 - **交易决策**：在每轮的1分钟内做出买入、卖出或持有的决策。
+
 - **绩效指标**：追踪剩余现金、当前投资组合价值和总资产，基于累计收入更新排名。
+
 - **实时反馈**：立即反馈交易结果和表现。
+
 - **交易历史**：记录玩家和AI的所有交易。
-- **积分系统**：根据表现赚取或失去积分，积分可用于购买游戏内物品。
+
+  
 
 ## **游戏技巧**
 
@@ -30,37 +39,12 @@
 - **数据库**：SQLite
 - **股票数据**：yfinance
 
-## **开始使用**
+### 网页展示
 
-### 克隆项目
+#### 开始界面
 
-```bash
-git clone https://github.com/MilleXi/trading_competition_platform.git
-cd trading_competition_platform
-```
+![image-20241115163050778](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20241115163050778.png)
 
-### 设置虚拟环境并安装依赖
+#### 交易界面
 
-```bash
-python -m venv venv
-source venv/bin/activate  # Windows系统：venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-### 运行后端服务器
-
-```bash
-cd backend
-flask run --port 8000
-```
-
-### 运行前端服务器
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-该项目采用MIT许可证开源。详细信息请参阅LICENSE文件。
-
+![image-20241115163109460](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20241115163109460.png)
