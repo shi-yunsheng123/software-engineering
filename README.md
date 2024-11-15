@@ -43,8 +43,9 @@
 
 #### 开始界面
 
-![image-20241115163050778](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20241115163050778.png)
+
+![image-20241115163109460](https://github.com/shi-yunsheng123/software-engineering/blob/main/image/图片1.png)
 
 #### 交易界面
 
-![image-20241115163109460](C:\Users\asus\AppData\Roaming\Typora\typora-user-images\image-20241115163109460.png)
+![image-20241115163109460](https://github.com/shi-yunsheng123/software-engineering/blob/main/image/图片2.png)
